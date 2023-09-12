@@ -28,5 +28,5 @@ async def on_member_update(before, after):
             await after.remove_roles(role_to_remove)
             print(f'Removed role {role_to_remove.name} from {after.display_name}')
 
-bot.run('MTE1MTIxMTEzODA1MTIxNTM2MA.GRlXg0.j9XtFwP-TS05ROUzoCBB8ArPOtwEYXnXLK-c3o')
+
 
