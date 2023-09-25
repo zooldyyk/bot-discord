@@ -12,9 +12,9 @@ async def on_ready():
 
 @bot.event
 async def on_member_update(before, after):
-    role_to_remove_id_1 = 1150075857034031134
-    role_to_remove_id_2 = 1149741693596348460
-    role_to_remove_id_3 = 1149741693596348461
+    role_to_remove_id_1 = 
+    role_to_remove_id_2 = 
+    role_to_remove_id_3 = 
 
     if role_to_remove_id_2 in [role.id for role in after.roles]:
         role_to_remove = discord.utils.get(after.roles, id=role_to_remove_id_1)
